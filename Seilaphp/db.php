@@ -11,4 +11,5 @@ $conn = new mysqli($host,$user,$pass,$dbname,3307);
 if ($conn->connect_error) {
     die("Falha na conexão: " . $conn->connect_error);
 }
+//horario 09:00hrs dia 30
 ?>

@@ -6,9 +6,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $idade = $_POST['idade'];
     $email = $_POST['email'];
     $curso = $_POST['curso'];
-
     $sql = "INSERT INTO alunos (nome, idade, email, curso) VALUES ('$nome', '$idade', '$email', '$curso')";
-
+}
     if ($conn->query($sql) === TRUE) {
         echo "Aluno cadastrado com sucesso!";
     } else {
@@ -22,4 +21,5 @@ if ($conn->query($sql) === TRUE) {
 } else {
     echo "<div class='error'>Erro ao cadastrar.</div>";
 }
+//dia 30 horario 09:30
 ?>

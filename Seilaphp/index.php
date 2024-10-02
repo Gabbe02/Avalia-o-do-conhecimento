@@ -68,6 +68,6 @@ $result = $conn->query($sql);
         <?php endwhile; ?>
     </tbody>
 </table>
-
+ <!-- dia 30 horario 10:50 -->
 </body>
 </html>
